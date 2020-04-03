@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
+    <title>Grade</title>
+</head>
+<body>
+    <div id="container">
+        <div id="calculator">
+            <div class="text">
+                <h1>Report<br>Card<br>Generator</h1>
+            </div>
+            <div class="box">
+                <div class="form">
+                    <input type="text" class="inp" placeholder="Maths" id="math" required>
+                    <input type="text" class="inp" placeholder="science" id="sci" required>
+                    <input type="text" class="inp" placeholder="Computer" id="comp" required>
+                    <input type="text" class="inp" placeholder="English" id="eng" required>
+                    <input type="button"  class="button" value="Percentage" onclick="calcy()">
+                </div>
+            </div>
+            <div class="show">
+                <p id="showData"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
